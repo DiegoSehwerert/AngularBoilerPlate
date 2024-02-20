@@ -6,7 +6,7 @@ import { FooterComponent } from './footer/footer.component';
 export const routes: Routes = [];
 
 const appRoutes: Routes = [
-  { path: '', component: HeaderComponent },
-  { path: '', component: MainContentComponent },
-  { path: '', component: FooterComponent }
+  { path: '/inicio', component: HeaderComponent },
+  { path: '/inicio', component: MainContentComponent },
+  { path: '/inicio', component: FooterComponent }
 ];
