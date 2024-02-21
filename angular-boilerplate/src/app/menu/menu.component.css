@@ -1,0 +1,12 @@
+.menu{
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+
+a.active{
+  color: red;
+}
