@@ -21,7 +21,7 @@ svg{
   min-height: 40%;
   min-width: 40rem;
   width: 85%;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -60,10 +60,20 @@ form{
   width: 95%;
 }
 
+.form-label{
+  align-items: center;
+  display: flex;
+  min-width: 5.5rem;
+}
+
+.form-input{
+  display: flex;
+  width: 100%;
+}
+
 .form-group{
   display: flex;
   justify-content: flex-start;
-  gap: 1rem;
 }
 
 .save-button svg, .cancel-button svg {
@@ -76,3 +86,40 @@ form{
   cursor: pointer;
   transform: scale(2);
 }
+
+.tabs{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.tab-container{
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: flex-start;
+}
+.tab{
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  width: 5%;
+}
+.tab .active{
+  background-color: rgba(0, 255, 200, 0.918);
+}
+.tab:hover{
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+.tab-content{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+
