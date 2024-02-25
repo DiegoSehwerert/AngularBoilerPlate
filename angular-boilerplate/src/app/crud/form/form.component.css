@@ -108,12 +108,18 @@ form{
   padding: 1rem;
   width: 5%;
 }
-.tab .active{
-  background-color: rgba(0, 255, 200, 0.918);
-}
 .tab:hover{
+  background-color: hsl(183.09,97.77%,35.1%);
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  color: white;
   cursor: pointer;
+}
+.tab.active{
+  background-color: rgba(0, 255, 200, 0.918);
+  display: block;
+}
+.tab.active:hover{
+  color: black;
 }
 .tab-content{
   display: flex;
