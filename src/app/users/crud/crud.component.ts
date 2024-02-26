@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { TableComponent } from '../table/table.component';
-import { FormComponent } from '../form/form.component';
+import { TableComponent } from './table/table.component';
+import { FormComponent } from './form/form.component';
 
 
 @Component({

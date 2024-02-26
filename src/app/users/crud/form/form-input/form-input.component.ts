@@ -21,7 +21,6 @@ export class FormInputComponent {
   @Input() pattern: string;
   @Input() disabled: boolean;
   @Input() width: string;
-  control = new FormControl();
 
   constructor() {
     this.label = '';

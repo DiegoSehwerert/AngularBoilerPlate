@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { CrudComponent } from '../crud/crud.component';
+import { CrudComponent } from './crud/crud.component';
 
 @Component({
   selector: 'app-users',
